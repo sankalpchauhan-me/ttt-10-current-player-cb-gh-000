@@ -1,6 +1,6 @@
 def turn_count(board)
-  board.each {|count|
-    if(board[count]=="X" || board[count]== "Y")
+  board.each {|mark|
+    if(board[mark]== "X"|| board[mark]== "Y")
       count = count+1
     end
   }
