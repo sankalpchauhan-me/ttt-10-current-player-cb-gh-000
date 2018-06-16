@@ -1,7 +1,7 @@
 def turn_count(board)
-  count=1
+  count=0
   board.each {|mark|
-    if(mark == "X"|| mark == "Y")
+    if(mark == "X"|| mark == "O")
       count = count+1
     end
   }
